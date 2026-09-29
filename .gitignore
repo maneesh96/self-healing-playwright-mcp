@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+
+# Playwright output
+test-results/
+playwright-report/
+playwright-report.json
+blob-report/
+playwright/.cache/
+
+# Self-healing runtime state (regenerated on every run)
+healing-cache.db
+healing-cache.db-*
+healing-dashboard.html
+healing-report.json
+
+# Build output
+dist/
+
+# Local secrets
+.env
+.env.*
+!.env.example
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
