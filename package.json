@@ -1,0 +1,24 @@
+{
+  "name": "self-healing-playwright-mcp",
+  "version": "1.0.0",
+  "description": "Enterprise-Grade Self-Healing Playwright Framework using AI-Augmented Locators via MCP",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "generate-pr": "ts-node src/scripts/prGenerator.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.1",
+    "dotenv": "^16.4.5",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "@types/node": "^20.11.24",
+    "@types/sqlite3": "^3.1.11",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
